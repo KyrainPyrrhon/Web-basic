@@ -35,3 +35,16 @@ This is image is from Lydia Hallie
 
 
 ## HTTP
+
+## A typical HTTP session
+
+HTTP会话包括三个阶段
+1. Client端建立一个TCP连接（或者其他连接）
+2. Client发送请求，等待回应
+3. Server端处理请求，将回应发送回去并且提供状态码和相应的数据
+
+HTTP/1.1协议在第三个阶段后不在关闭连接，保证Client可以继续发送请求，这意味着第二、第三个阶段可以进行多次操作
+
+
+
+
