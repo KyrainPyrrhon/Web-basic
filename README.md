@@ -27,3 +27,7 @@
 - 不要重复计算样式，可以将他们cache起来
 
 ## JavaScript Section
+
+### Event Loop
+
+[](js-event-loop.png)
