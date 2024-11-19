@@ -45,6 +45,13 @@ HTTP会话包括三个阶段
 
 HTTP/1.1协议在第三个阶段后不在关闭连接，保证Client可以继续发送请求，这意味着第二、第三个阶段可以进行多次操作
 
+Response status codes
+- 200: OK.
+- 301: Moved Permanently.
+- 404: Not Found.
+
+
+
 
 
 
