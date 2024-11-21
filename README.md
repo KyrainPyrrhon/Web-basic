@@ -34,9 +34,9 @@ This is image is from Lydia Hallie
 <img src=".\js-eventloop.png" />
 
 
-## HTTP
+### HTTP
 
-## A typical HTTP session
+#### A typical HTTP session
 
 HTTP会话包括三个阶段
 1. Client端建立一个TCP连接（或者其他连接）
@@ -49,6 +49,45 @@ Response status codes
 - 200: OK.
 - 301: Moved Permanently.
 - 404: Not Found.
+
+
+
+## Redux Section
+
+### Redux Fundamentals: Part 1
+
+#### Background Concepts
+
+- State Management
+  - state
+  - view
+  - actions
+- Immutability
+  - In order to update values immutably, your code must make copies of existing objects/arrays, and then modify the copies.
+
+#### Redux Terminology
+
+- Actions
+- Reducers
+  - Pitfall: They must not do any asynchronous logic, calculate random values, or cause other "side effects"
+- Store
+- Dispatch
+- Selectors
+
+#### Core Concepts and Principles
+
+- Single Source of Truth
+- State is Read-Only
+- Changes are Made with Pure Reducer Functions
+    
+### Redux Fundamentals: Part 2
+
+
+
+
+
+
+
 
 
 
